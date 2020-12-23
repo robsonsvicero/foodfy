@@ -3,14 +3,14 @@ const routes = express.Router()
 const recipes = require('./controllers/admin')
 
 routes.get('/', function(req, res) {
-  return res.redirect('/recipes')
+  return res.redirect('/admin/recipes')
 })
-routes.get('/recipes', recipes.index)
-routes.get('/recipes/create', recipes.create)
-routes.get('/recipes/:id', recipes.show)
-routes.get('/recipes/:id/edit', recipes.edit)
-routes.post('/recipes', recipes.post)
-routes.put('/recipes', recipes.put)
-routes.delete('/recipes', recipes.delete)
+routes.get('/admin/recipes', recipes.index)
+routes.get('/admin/create', recipes.create)
+routes.get('/admin/recipes/:id', recipes.show)
+routes.get('/admin/edit/:id', recipes.edit)
+routes.post('/admin/recipes', recipes.post)        //create
+routes.put('/admin/recipes', recipes.put)         //update
+routes.delete('/admin/recipes', recipes.delete)  //delete
 
 module.exports = routes

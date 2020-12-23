@@ -26,7 +26,7 @@ body {
     margin-left: 11%;
 }
 
-.more-acess {
+.more_access {
     margin-top: 50px;
     margin-bottom: 20px;
 }
@@ -41,7 +41,7 @@ body {
     text-align: left;
 }
 
-.card-img img {
+.card_img img {
     width: 100%;
     border-radius: 8px;
 
@@ -51,7 +51,7 @@ body {
     object-fit: cover;
 }
 
-.cardsAdmin .card-img img{
+.cardsAdmin .card_img img{
     width: 172px;
     height: 80px;
     float: left;
@@ -63,7 +63,7 @@ body {
     padding: 2px;
 }
 
-.cardsAdmin .card-img p{
+.cardsAdmin .card_img p{
     color: #777;
 }
 
@@ -79,14 +79,14 @@ body {
     transition: 350ms;
 }
 
-.top-card{
+.top_card{
     display: flex;
     justify-content: space-between;
     align-items: normal;
     margin-bottom: 20px;
 }
 
-.top-card a{
+.top_card a{
     background-color: #6558C3;
     width: 136px;
     height: 37px;
@@ -98,30 +98,30 @@ body {
     line-height: 35px;
 }
 
-.top-card a:hover{
+.top_card a:hover{
     opacity: 0.9;
     transition: 350ms;
 }
 
 /* ==== RECIPE ==== */
 
-.info-recipe {
+.info_recipe {
     font-size: 32px;
     text-align: center;
     margin-top: 50px;
 }
 
-.info-recipe p {
+.info_recipe p {
     font-size: 20px;
     color: #777;
     margin-top: 4px;
 }
 
-.about-recipe {
+.about_recipe {
     text-align: left;
 }
 
-.about-recipe h3 {
+.about_recipe h3 {
     margin-top: 30px;
 }
 
@@ -134,13 +134,13 @@ body {
 
 /* ==== RECIPES ADMIN ==== */
 
-.ger-recipes{
+.create_recipes{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.ger-recipes a{
+.create_recipes a{
     background-color: #6558C3;
     color: white;
     font-size: 16px;
@@ -152,7 +152,7 @@ body {
     line-height: 36px;
 }
 
-.ger-recipes a:hover{
+.create_recipes a:hover{
     opacity: 0.9;
     transition: 350ms;
 }
@@ -164,7 +164,7 @@ body {
 
 /* ==== CREATE RECIPE ==== */
 
-.header-create {
+.header_create {
     width: 969px;
 
     display: flex;
@@ -173,7 +173,7 @@ body {
     margin-top: 40px;
 }
 
-.create-menu button[type="submit"] {
+.create_menu button[type="submit"] {
     background-color: #6558C3;
     color: white;
     width: 139px;
@@ -183,7 +183,7 @@ body {
     text-decoration: none;
 }
 
-.create-menu button:first-child[type="submit"] {
+.create_menu button:first-child[type="submit"] {
     background-color: crimson;
     color: white;
     width: 139px;
@@ -193,7 +193,7 @@ body {
     text-decoration: none;
 }
 
-.create-menu button:hover{
+.create_menu button:hover{
     opacity: 0.9;
     transition: 350ms;
 }

@@ -137,15 +137,44 @@
     {
       "id": 7,
       "image": "https://img.itdg.com.br/images/recipes/000/048/083/329518/329518_original.jpg",
-      "title": "Bolos",
+      "title": "Bolo de Cenoura",
       "author": "Roberto R S",
       "ingredients": [
-        "Farinha, Ovo, Açucar"
+        "3 cenouras médias raspadas e picadas",
+        "3 ovos",
+        "1 xícara de óleo",
+        "2 xícaras de açúcar",
+        "2 xícaras de farinha de trigo",
+        "1 colher de sopa de fermento em pó",
+        "1 pitada de sal"
       ],
       "preparation": [
-        "Forno, Assar"
+        "Untar a forma com manteiga/margarina e farinha de trigo;",
+        "Bata no liquidificador todos os ingredientes, acrescentando a farinha aos poucos;",
+        "Depois unte e enfarinhe uma forma e despeje a massa nela. Asse em forno médio por cerca de 40 minutos. Tire do forno, espere amornar e desenforme."
       ],
-      "information": "        \r\n        "
+      "information": "PARA COBERTURA:\r\n5 COLHERES DE SOPA DE AÇUCAR;\r\n3 CLHERES DE SOPA DE CHOCOLATE EM PÓ;\r\n2 COLHERES DE SOPA DE MANTEIGA;\r\n2 COLHERES DE SOPA DE LEITE.    ",
+      "image_url": "https://s2.glbimg.com/mVrs_HXux7pgYIt7xotYUg_0d5A=/0x0:1550x1200/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2020/q/j/gkbXFDTk2WK7TznmMO7Q/bolo-de-cenoura-de-liquidificador.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Café delicioso",
+      "author": "Patrícia de Castro",
+      "image_url": "https://img.itdg.com.br/tdg/images/recipes/000/078/402/289310/289310_original.jpg?mode=crop&width=710&height=400",
+      "ingredients": [
+        "3 copos americanos de água (1/2 litro);",
+        "3 colheres de sopa de café (30g);",
+        "Açúcar a gosto"
+      ],
+      "preparation": [
+        "Coloque a água em um recipiente e leve ao fogo;",
+        "Depois coloque o café em um coador com filtro de papel ou pano sobre o bule;",
+        "Quando a água estiver na fervura sem borbulhas, desligue o fogo e despeje-a vagarosamente no coador;",
+        "Use água filtrada, não deixe ferver demais para não cozinhar o pó;",
+        "Deixe o café ser coado de forma lenta e natural, sem mexer, evitando que o volume de água despejado ultrapasse o volume de pó no coador;",
+        "Depois que o café for coado, adicione açúcar a gosto."
+      ],
+      "information": "    "
     }
   ]
 }

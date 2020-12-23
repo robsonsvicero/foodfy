@@ -3,12 +3,12 @@ const data = require("../data.json")
 // const Intl = require('intl')
 
 exports.index = function(req, res) {
-  return res.render('recipes/index', { items: data.recipes })
+  return res.render('./admin/recipes', { recipes: data.recipes })
 }
 
 //CREATE
 exports.create = (req, res) => {
-  return res.render('recipes/create')
+  return res.render('./admin/create')
 }
 
 //POST
@@ -35,7 +35,7 @@ exports.post = function(req, res) {
   fs.writeFile('data.json', JSON.stringify(data, null, 2), function(err) {
     if (err) return res.send("Write file error!")
 
-    return res.redirect("/recipes")
+    return res.redirect("/admin/recipes")
   })
 }
 
@@ -48,10 +48,10 @@ exports.show = function(req, res) {
 
   if (!foundRecipe) return res.send("Recipe not found!")
 
-  const items = {
+  const recipe = {
     ...foundRecipe,
   }
-  return res.render("recipes/show", { items })
+  return res.render("./admin/recipe", { recipe })
 }
 
 //EDIT
@@ -64,10 +64,10 @@ exports.edit = function(req, res) {
 
   if (!foundRecipe) return res.send("Recipe not found!")
 
-  const item = {
+  const recipe = {
     ...foundRecipe
   }
-  return res.render('recipes/edit', { item })
+  return res.render('./admin/edit', { recipe })
 }
 
 //PUT
@@ -94,7 +94,7 @@ exports.put = function(req, res) {
 
   fs.writeFile("data.json", JSON.stringify(data, null, 2), function(err) {
     if (err) return res.send("Write file error!")
-    return res.redirect(`/recipes/${id}`)
+    return res.redirect(`/admin/recipes/${id}`)
   })
 
 }
@@ -111,7 +111,7 @@ exports.delete = function(req, res) {
     fs.writeFile("data.json", JSON.stringify(data, null, 2), function(err){
       if(err) return res.send("Write file error!")
 
-      return res.redirect('/recipes')
+      return res.redirect('/admin/recipes')
     })
 
 }
